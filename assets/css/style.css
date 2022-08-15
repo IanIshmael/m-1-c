@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-  
+  /* took out div and made a header tag on line 10 to line 25 */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -22,7 +22,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
- 
+ /* took out div and added a nav on line 12 and 24 */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -39,7 +39,7 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+         /**/
 a {
     color: #ffffff;
     text-decoration: none;
@@ -67,13 +67,15 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/* took out div and made a main tag on line 27 to line 49 */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+/**/
 
+/* took out div and added aside tag pn line 50 to line 72 */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -84,7 +86,9 @@ main {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+/**/
 
+/* changed all classes inside of aside to benefit-aside */
 .benefit-aside {
     margin-bottom: 32px;
     color: #ffffff;
@@ -100,7 +104,9 @@ main {
     margin: 10px auto;
     max-width: 150px;
 }
+/**/
 
+/* changed all the classes in main tag to say main-section */
 .main-section {
     margin-bottom: 20px;
     padding: 50px;
@@ -118,7 +124,9 @@ main {
     margin-bottom: 20px;
     font-size: 36px;
 }
+   /**/
 
+   /* took out div and added footer tag to line 73 to line 78*/
 footer {
     padding: 30px;
     clear: both;
